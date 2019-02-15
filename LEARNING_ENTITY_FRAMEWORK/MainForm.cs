@@ -37,14 +37,14 @@ namespace LEARNING_ENTITY_FRAMEWORK
 		}
 
 
-		private void firstButton_Click(object sender, System.EventArgs e)
+		private void FirstButton_Click(object sender, System.EventArgs e)
 		{
 			PageIndex = 0;
 
 			DisplayCountries();
 		}
 
-		private void previousButton_Click(object sender, System.EventArgs e)
+		private void PreviousButton_Click(object sender, System.EventArgs e)
 		{
 			if (PageIndex > 0)
 			{
@@ -54,7 +54,7 @@ namespace LEARNING_ENTITY_FRAMEWORK
 			}
 		}
 
-		private void nextButton_Click(object sender, System.EventArgs e)
+		private void NextButton_Click(object sender, System.EventArgs e)
 		{
 			if (PageIndex < GetLastPageIndex())
 			{
@@ -64,7 +64,7 @@ namespace LEARNING_ENTITY_FRAMEWORK
 			}
 		}
 
-		private void lastButton_Click(object sender, System.EventArgs e)
+		private void LastButton_Click(object sender, System.EventArgs e)
 		{
 			PageIndex = GetLastPageIndex();
 

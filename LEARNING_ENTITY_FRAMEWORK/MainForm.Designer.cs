@@ -93,7 +93,7 @@
 			this.lastButton.TabIndex = 3;
 			this.lastButton.Text = "&Last";
 			this.lastButton.UseVisualStyleBackColor = true;
-			this.lastButton.Click += new System.EventHandler(this.lastButton_Click);
+			this.lastButton.Click += new System.EventHandler(this.LastButton_Click);
 			// 
 			// firstButton
 			// 
@@ -103,7 +103,7 @@
 			this.firstButton.TabIndex = 2;
 			this.firstButton.Text = "&First";
 			this.firstButton.UseVisualStyleBackColor = true;
-			this.firstButton.Click += new System.EventHandler(this.firstButton_Click);
+			this.firstButton.Click += new System.EventHandler(this.FirstButton_Click);
 			// 
 			// nextButton
 			// 
@@ -113,7 +113,7 @@
 			this.nextButton.TabIndex = 1;
 			this.nextButton.Text = "&Next";
 			this.nextButton.UseVisualStyleBackColor = true;
-			this.nextButton.Click += new System.EventHandler(this.nextButton_Click);
+			this.nextButton.Click += new System.EventHandler(this.NextButton_Click);
 			// 
 			// previousButton
 			// 
@@ -123,7 +123,7 @@
 			this.previousButton.TabIndex = 0;
 			this.previousButton.Text = "&Previous";
 			this.previousButton.UseVisualStyleBackColor = true;
-			this.previousButton.Click += new System.EventHandler(this.previousButton_Click);
+			this.previousButton.Click += new System.EventHandler(this.PreviousButton_Click);
 			// 
 			// MainForm
 			// 
