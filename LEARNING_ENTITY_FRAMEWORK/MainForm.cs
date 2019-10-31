@@ -90,8 +90,9 @@ namespace LEARNING_ENTITY_FRAMEWORK
 				.ToList()
 				;
 
-			countriesListBox.ValueMember = "Id";
-			countriesListBox.DisplayMember = "Name";
+			countriesListBox.ValueMember = nameof(Models.Country.Id);
+			countriesListBox.DisplayMember = nameof(Models.Country.Name);
+
 			countriesListBox.DataSource = countries;
 		}
 
